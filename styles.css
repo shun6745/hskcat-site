@@ -175,6 +175,39 @@ a:hover {
   margin-bottom: 24px;
 }
 
+.support-email {
+  display: inline-block;
+  margin: 4px 0 0;
+  padding: 10px 14px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--surface-soft);
+  font-weight: 600;
+}
+
+.email-note {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.email-template {
+  overflow-x: auto;
+  margin: 0;
+  padding: 16px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: var(--surface-soft);
+  font: inherit;
+  white-space: pre-wrap;
+}
+
+.page-links {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 12px;
+}
+
 footer {
   text-align: center;
   color: var(--muted);
